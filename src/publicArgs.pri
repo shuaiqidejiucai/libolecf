@@ -1,5 +1,5 @@
 TEMPLATE = lib
-shareRoot = ../../share
+shareRoot = $$PWD/../../share
 include($$shareRoot/common/common.pri)
 CONFIG += staticlib
 # GLIBINCLUDEPATH=/usr/include/glib-2.0/
