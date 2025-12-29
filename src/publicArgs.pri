@@ -1,5 +1,6 @@
 TEMPLATE = lib
-include(../../common.pri)
+shareRoot = ../../share
+include($$shareRoot/common/common.pri)
 CONFIG += staticlib
 # GLIBINCLUDEPATH=/usr/include/glib-2.0/
 CONFIG += c++11

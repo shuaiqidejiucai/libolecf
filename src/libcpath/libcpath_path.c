@@ -43,7 +43,12 @@
 #endif
 
 #if defined( HAVE_UNISTD_H )
+#ifdef _WIN32
+//#include
+#else
 #include <unistd.h>
+#endif
+
 #endif
 
 #include "libcpath_definitions.h"
